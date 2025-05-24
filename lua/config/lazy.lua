@@ -18,10 +18,7 @@ require("lazy").setup({
 	spec = {
 		{
 			"PlusVim/PlusVim",
-			config = function()
-				require("plusvim")
-			end,
-			import = "plusvim.plugins",
+			import = "plusvim",
 		},
 		{ import = "plugins" },
 	},
